@@ -110,8 +110,8 @@ int main()
 		std::cout << m[i] << " ";
 	}
 
-	int min = m[0];
-	int max = m[0];
+	int min = 0;
+	int max = 0;
 
 
 	for (int i = 1; i < SIZE; i++)
@@ -130,5 +130,6 @@ int main()
 
 
 }
+
 
 
